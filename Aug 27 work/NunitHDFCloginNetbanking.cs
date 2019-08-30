@@ -32,7 +32,6 @@ namespace Aug_27_work
         [Test]
         public void LoginNetBanking()
         {
-            Thread.Sleep(5000);
             driver.FindElementByCssSelector("#parentdiv > img").Click();
             //IWebElement image = driver.FindElementByCssSelector("#parentdiv > img");
             //Actions action = new Actions(driver);
